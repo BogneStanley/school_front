@@ -1,0 +1,16 @@
+.active {
+    color: white !important;
+    text-decoration: underline !important;
+    text-decoration-color: rgb(255, 238, 220) !important;
+    text-decoration-thickness: 3px !important;
+    text-underline-offset: 5px !important;
+}
+
+.icon {
+    margin-right: 10px;
+    color: rgb(6, 72, 169);
+}
+
+.active .icon {
+    color: rgb(234, 154, 73) !important;
+}
