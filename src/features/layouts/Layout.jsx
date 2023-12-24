@@ -11,7 +11,7 @@ export function Layout() {
     return <>
         <div className="d-flex flex-row">
             <Sidebar />
-            <div className="w-100">
+            <div className="w-100 overflow-y-auto" style={{ height: "100vh" }}>
                 <Header />
                 <Outlet />
             </div>
