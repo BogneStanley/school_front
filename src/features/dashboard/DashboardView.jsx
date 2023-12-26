@@ -4,6 +4,11 @@ import { UserCountCard } from '../../components/card/UserCountCard';
 import { UsersDashboardListCard } from '../../components/card/UsersDashboardListCard';
 import { ViewTitle } from '../../components/title/ViewTitle';
 
+/**
+ * Renders the dashboard view.
+ *
+ * @return {JSX.Element} The rendered dashboard view.
+ */
 export function DashboardView() {
     return <>
         <div className="p-3 container">

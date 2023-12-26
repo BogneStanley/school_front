@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Layout } from '../features/layouts/Layout';
 import { DashboardView } from "../features/dashboard/DashboardView";
+import { AttributsView } from "../features/attributs/AttributsView";
 
 export const router = createBrowserRouter([
     {
@@ -13,7 +14,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: 'attributs',
-                element: <div>Attributs</div>
+                element: <AttributsView />
             },
             {
                 path: 'epreuves',
